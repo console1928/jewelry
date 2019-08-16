@@ -10,6 +10,9 @@ import slider1 from './images/slider1.svg';
 import slider2 from './images/slider2.svg';
 import sliderButton from './images/slider-button.png';
 import sliderButtonActive from './images/slider-button-active.png';
+import advantages1 from './images/advantages1.png';
+import advantages2 from './images/advantages2.png';
+import advantages3 from './images/advantages3.png';
 import './App.css';
 
 class App extends React.Component {
@@ -64,13 +67,19 @@ class App extends React.Component {
           </div>
         </div>
         <div
-          style={this.state.sliderStage === 1 ? { opacity: 1 } : { opacity: 0 }}
+          style={{
+              position: "absolute",
+              opacity: this.state.sliderStage === 1 ? 1 : 0
+            }}
           className={"main-image-container-1"}
         >
           <img className={"image-slider1"} src={slider1} />
         </div>
         <div
-          style={this.state.sliderStage === 2 ? { opacity: 1 } : { opacity: 0 }}
+          style={{
+              position: "relative",
+              opacity: this.state.sliderStage === 2 ? 1 : 0
+            }}
           className={"main-image-container-2"}
         >
           <img className={"image-slider2"} src={slider2} />
@@ -115,6 +124,52 @@ class App extends React.Component {
           <span className={"title-first"}>{"ЮВЕЛИРНЫЙ "}</span>
           <br/>
           <span className={"title-second"}>{"ДОМ DIEL"}</span>
+        </div>
+        <div className={"advantages-container"}>
+          <div className={"advantages-header"}>
+            {"ПРЕИМУЩЕСТВА"}
+          </div>
+          <div className={"advantages-items"}>
+            <div className={"advantages-item-1"}>
+              <img className={"advantages-image"} src={advantages1} />
+              <div className={"advantages-item-header"}>{"Верный спутник надежности – качество"}</div>
+              <div className={"advantages-item-text"}>
+                {`Несколько производственных площадок в разных городах, более 300 
+                  мастеров, современное оборудование, новейшие технологии, 
+                  прототипирование, жесткая система проверок и многоступенчатый`}
+              </div>
+              <div className={"advantages-link"}>
+                {"Подробнее"}
+                <img className={"title-description-vector"} src={vector} width={"34px"} />
+              </div>
+            </div>
+            <div className={"advantages-item-2"}>
+              <img className={"advantages-image"} src={advantages2} />
+              <div className={"advantages-item-header"}>{"Верный спутник надежности – качество"}</div>
+              <div className={"advantages-item-text"}>
+                {`Несколько производственных площадок в разных городах, более 300 
+                  мастеров, современное оборудование, новейшие технологии, 
+                  прототипирование, жесткая система проверок и многоступенчатый`}
+              </div>
+              <div className={"advantages-link"}>
+                {"Подробнее"}
+                <img className={"title-description-vector"} src={vector} width={"34px"} />
+              </div>
+            </div>
+            <div className={"advantages-item-3"}>
+              <img className={"advantages-image"} src={advantages3} />
+              <div className={"advantages-item-header"}>{"Верный спутник надежности – качество"}</div>
+              <div className={"advantages-item-text"}>
+                {`Несколько производственных площадок в разных городах, более 300 
+                  мастеров, современное оборудование, новейшие технологии, 
+                  прототипирование, жесткая система проверок и многоступенчатый`}
+              </div>
+              <div className={"advantages-link"}>
+                {"Подробнее"}
+                <img className={"title-description-vector"} src={vector} width={"34px"} />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
