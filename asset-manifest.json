@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/jewelry/static/css/main.61058bd7.chunk.css",
+    "main.js": "/jewelry/static/js/main.9f39db45.chunk.js",
+    "main.js.map": "/jewelry/static/js/main.9f39db45.chunk.js.map",
+    "runtime~main.js": "/jewelry/static/js/runtime~main.b6b47218.js",
+    "runtime~main.js.map": "/jewelry/static/js/runtime~main.b6b47218.js.map",
+    "static/js/2.778a6255.chunk.js": "/jewelry/static/js/2.778a6255.chunk.js",
+    "static/js/2.778a6255.chunk.js.map": "/jewelry/static/js/2.778a6255.chunk.js.map",
+    "index.html": "/jewelry/index.html",
+    "precache-manifest.64676220427d8107f4b35b3a3f58bb61.js": "/jewelry/precache-manifest.64676220427d8107f4b35b3a3f58bb61.js",
+    "service-worker.js": "/jewelry/service-worker.js",
+    "static/css/main.61058bd7.chunk.css.map": "/jewelry/static/css/main.61058bd7.chunk.css.map",
+    "static/media/App.css": "/jewelry/static/media/img2.f078ff3e.png",
+    "static/media/diamond.svg": "/jewelry/static/media/diamond.b58909c8.svg",
+    "static/media/slider1.svg": "/jewelry/static/media/slider1.e8aa3329.svg",
+    "static/media/slider2.svg": "/jewelry/static/media/slider2.0dd85a3e.svg"
+  }
+}
