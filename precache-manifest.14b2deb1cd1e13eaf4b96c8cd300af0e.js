@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "aa5d2f5692943b65188977cfff2149e2",
+    "revision": "2f64356884e9f9bcbb39d53153252b91",
     "url": "/jewelry/index.html"
   },
   {
-    "revision": "deb87f221fc19cb6cada",
-    "url": "/jewelry/static/css/main.61058bd7.chunk.css"
+    "revision": "46d5342755488a437cd9",
+    "url": "/jewelry/static/css/main.41d3247e.chunk.css"
   },
   {
-    "revision": "69b09955ef082810f5f4",
-    "url": "/jewelry/static/js/2.778a6255.chunk.js"
+    "revision": "a23032ba84e0d72c6ff2",
+    "url": "/jewelry/static/js/2.e8647909.chunk.js"
   },
   {
-    "revision": "deb87f221fc19cb6cada",
-    "url": "/jewelry/static/js/main.9f39db45.chunk.js"
+    "revision": "46d5342755488a437cd9",
+    "url": "/jewelry/static/js/main.adb21671.chunk.js"
   },
   {
     "revision": "7be348575c6bd9a70c3d",
@@ -30,6 +30,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "45ccb093c0f147299c2bf508f60632a6",
     "url": "/jewelry/static/media/Lazurski.45ccb093.ttf"
+  },
+  {
+    "revision": "161eafae7dd1ba71fed50a508bf72bbe",
+    "url": "/jewelry/static/media/advantages1.161eafae.png"
+  },
+  {
+    "revision": "d285daedf326e4eba049eb553e38c820",
+    "url": "/jewelry/static/media/advantages2.d285daed.png"
+  },
+  {
+    "revision": "1ad9b74adefff1f4c2ba3b82118ba021",
+    "url": "/jewelry/static/media/advantages3.1ad9b74a.png"
   },
   {
     "revision": "b58909c8feb65edb633208274af2e7f0",
